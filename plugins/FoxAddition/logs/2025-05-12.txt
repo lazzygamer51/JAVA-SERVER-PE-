@@ -1,0 +1,23 @@
+[2025-05-12 08:50:12] 
+[2025-05-12 08:50:12] [STARTUP] Starting server with 1.21.4-229-e2ca477 (MC: 1.21.4) [1.21.4-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2025-05-12 09:08:37] [ALERT] ItzErroR19_ detected Reach (Hit) [in:horizontal] [distance:4.316834992783213/4.213166097551584] [ping:-1] [vls:1(+1)]
+[2025-05-12 09:08:47] [ALERT] ItzErroR19_ detected Reach (Hit) [in:horizontal] [distance:5.265946422675046/4.1] [ping:-1] [vls:1(+1)]
+[2025-05-12 09:09:11] [ALERT] ItzErroR19_ detected Reach (Hit) [in:horizontal] [distance:4.508202650851077/4.1] [ping:-1] [vls:1(+1)]
+[2025-05-12 09:09:22] [ALERT] ItzErroR19_ detected Reach (Hit) [in:horizontal] [distance:4.373960870787143/4.213166097551584] [ping:-1] [vls:1(+1)]
+[2025-05-12 09:09:37] [ALERT] ItzErroR19_ detected Reach (Hit) [in:horizontal] [distance:4.645735441590748/4.1] [ping:-1] [vls:1(+1)]
+[2025-05-12 09:09:41] [ALERT] ItzErroR19_ detected Reach (Hit) [in:horizontal] [distance:4.323496870977836/4.213166097551584] [ping:-1] [vls:1(+1)]
+[2025-05-12 09:09:43] [ALERT] ItzErroR19_ detected Reach (Hit) [in:horizontal] [distance:4.313744731195403/4.1] [ping:-1] [vls:1(+1)]
+[2025-05-12 09:55:23] [ALERT] LAZZYACTOR detected Reach (Hit) [in:horizontal] [distance:4.706385945464218/4.1] [ping:-1] [vls:1(+1)]
+[2025-05-12 13:27:47] 
+[2025-05-12 13:27:47] [STARTUP] Starting server with 1.21.4-229-e2ca477 (MC: 1.21.4) [1.21.4-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2025-05-12 14:07:41] [ALERT] TechNoorzz detected FastSwitch [BadPackets] [interval:49/50] [vls:2(+2)]
+[2025-05-12 14:09:50] [ALERT] TechNoorzz detected FastSwitch [BadPackets] [interval:49/50] [vls:2(+2)]
+[2025-05-12 14:10:08] [ALERT] LAZZYACTOR detected FastSwitch [BadPackets] [interval:37/50] [vls:2(+2)]
+[2025-05-12 14:10:18] [ALERT] TechNoorzz detected FastSwitch [BadPackets] [interval:48/50] [vls:2(+2)]
+[2025-05-12 14:18:24] [ALERT] TechNoorzz detected FastSwitch [BadPackets] [interval:47/50] [vls:2(+2)]
+[2025-05-12 16:14:31] 
+[2025-05-12 16:14:31] [STARTUP] Starting server with 1.21.4-229-e2ca477 (MC: 1.21.4) [1.21.4-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2025-05-12 16:26:43] 
+[2025-05-12 16:26:43] [STARTUP] Starting server with 1.21.4-229-e2ca477 (MC: 1.21.4) [1.21.4-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2025-05-12 16:33:44] 
+[2025-05-12 16:33:44] [STARTUP] Starting server with 1.21.4-229-e2ca477 (MC: 1.21.4) [1.21.4-R0.1-SNAPSHOT] in FoxAddition v1.2.0

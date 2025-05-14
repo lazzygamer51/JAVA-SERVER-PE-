@@ -1,0 +1,106 @@
+prefix: '&8[&4ClearFog&8] '
+plugin:
+  enable: Plugin successfully enabled.
+  disable: Plugin disabled.
+  up_to_date: Your version of this plugin is up to date!
+  outdated: |-
+    There's a new version available for this plugin: %version%
+    You can download it from: %url%
+syntax: '%prefix%&cSyntax error! Please use &7/%syntax%&c.'
+no_permission: '%prefix%&cYou do not have enough permissions to perform this action.'
+player_not_found: '%prefix%&cThe player &7%player% &ccould not be found.'
+state_number: '%prefix%&cPlease state a number.'
+out_of_bounds: '%prefix%&cPlease state a number above or equal to 1.'
+reload: '%prefix%&7Config was reloaded.'
+directupdates:
+  status:
+    enabled: '%prefix%&7Direct updates are currently &aenabled&7.'
+    disabled: '%prefix%&7Direct updates are currently &cdisabled&7.'
+  enable:
+    as_before: '%prefix%&6Direct updates are already enabled.'
+    success: '%prefix%&7Direct updates are now &aenabled.\n&6Direct updates will update
+      the view distance directly when it was changed. This is &lnot &6recommeded as
+      it does not look very good and could cause bugs.'
+  disable:
+    as_before: '%prefix%&6Direct updates are already disabled.'
+    success: '%prefix%&7Direct updates are now &cdisabled.'
+default:
+  status:
+    enabled: '%prefix%&7Default view distance is currently &aenabled&7.'
+    disabled: '%prefix%&7Default view distance is currently &cdisabled&7.'
+  enable:
+    as_before: '%prefix%&6Default view distance is already enabled.'
+    success: '%prefix%&7Default view distance is now &aenabled.'
+  disable:
+    as_before: '%prefix%&6Default view distance is already disabled.'
+    success: '%prefix%&7Default view distance is now &cdisabled.'
+  set:
+    as_before: '%prefix%&6Default view distance is already set to &7%distance%&7.'
+    success: '%prefix%&7Default view distance is now set to &6%distance%&7.'
+  get: '%prefix%&7Default view distance is currently &6%distance%&7.'
+world:
+  not_found: '%prefix%&cThe world &7%world% &ccould not be found.'
+  feature_not_enabled: '%prefix%&cThis feature is not enabled. You can enable it by
+    using &7/fog world enable&c.'
+  status:
+    enabled: '%prefix%&7World specific view distances are currently &aenabled&7.'
+    disabled: '%prefix%&7World specific view distances are currently &cdisabled&7.'
+  enable:
+    as_before: '%prefix%&6World specific view distances are already enabled.'
+    success: '%prefix%&7World specific view distances are now &aenabled.'
+  disable:
+    as_before: '%prefix%&6World specific view distances are already disabled.'
+    success: '%prefix%&7World specific view distances are now &cdisabled.'
+  list:
+    nothing: '%prefix%&7There are no world specific view distances.'
+    prefix: '%prefix%&7World specific view distances:'
+    part: '&7- %world%: &6%distance%'
+  get:
+    return: '%prefix%&7The view distance of the world &5%world% &7is &6%distance%&7.'
+    not_set: '%prefix%&7The view distance of the world &5%world% &7is &6not set&7.'
+  set:
+    as_before: '%prefix%&6The view distance of the world &5%world% &cis already set
+      to &7%distance%&c.'
+    success: '%prefix%&7The view distance of the world &5%world% &7was set to &6%distance%&7.'
+  unset:
+    does_not_exist: '%prefix%&7The world &5%world% &cdoes not have a view distance.'
+    success: '%prefix%&7The view distance of the world &5%world% &7was removed.'
+individual:
+  feature_not_enabled: '%prefix%&cThis feature is not enabled. You can enable it by
+    using &7/fog individual enable&c.'
+  status:
+    enabled: '%prefix%&7Player specific view distances are currently &aenabled&7.'
+    disabled: '%prefix%&7Player specific view distances are currently &cdisabled&7.'
+  enable:
+    as_before: '%prefix%&6Player specific view distances are already enabled.'
+    success: '%prefix%&7Player specific view distances are now &aenabled.'
+  disable:
+    as_before: '%prefix%&6Player specific view distances are already disabled.'
+    success: '%prefix%&7Player specific view distances are now &cdisabled.'
+  list:
+    nothing: '%prefix%&7There are no player specific view distances.'
+    prefix: '%prefix%&7Player specific view distances:'
+    part: '&7- %player%: &6%distance%'
+  get:
+    self:
+      return: '%prefix%&7Your individual view distance is &6%distance%&7.'
+      not_set: '%prefix%&7Your individual view distance is &6not set&7.'
+    others:
+      return: '%prefix%&7The individual view distance of &5%player% &7is &6%distance%&7.'
+      not_set: '%prefix%&7The individual view distance of &5%player% &7is &6not set&7.'
+  set:
+    self:
+      as_before: '%prefix%&6Your individual view distance is already set to &7%distance%&c.'
+      success: '%prefix%&7Your individual view distance was set to &6%distance%&7.'
+    others:
+      as_before: '%prefix%&6The individual view distance of &5%player% &cis already
+        set to &7%distance%&c.'
+      success: '%prefix%&7The individual view distance of &5%player% &7was set to
+        &6%distance%&7.'
+  unset:
+    self:
+      does_not_exist: '%prefix%&cYou do not have an individual view distance.'
+      success: '%prefix%&7Your individual view distance was removed.'
+    others:
+      does_not_exist: '%prefix%&5%player% &cdoes not have an individual view distance.'
+      success: '%prefix%&7The individual view distance of &5%player% &7was removed.'

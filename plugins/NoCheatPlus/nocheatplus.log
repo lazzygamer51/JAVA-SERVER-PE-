@@ -1,0 +1,589 @@
+25-05-11 16:35:17 [INFO] Logger started.
+25-05-11 16:35:17 [INFO] Logging system initialized.
+25-05-11 16:35:17 [INFO] Detected Minecraft version: 1.21.4
+25-05-11 16:35:46 [WARNING] Running in Bukkit-API-only mode (1.21.4-229-e2ca477 (MC: 1.21.4)). If this is not intended, please check for updates and consider to request support.
+25-05-11 16:35:46 [WARNING]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+25-05-11 16:35:46 [WARNING]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+25-05-11 16:35:46 [WARNING] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+25-05-11 16:35:47 [INFO] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+25-05-11 16:35:47 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-11 16:35:47 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-11 16:35:47 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-11 16:35:47 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-11 16:35:47 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-11 16:35:47 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-11 16:35:47 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-11 16:35:47 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-11 16:35:47 [INFO] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+25-05-11 16:35:47 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-11 16:35:47 [INFO] Packet level access: ProtocolLib is not available.
+25-05-11 16:35:47 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-11 16:35:47 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-11 16:35:52 [WARNING] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING (WHEAT) 
+* MISSING (SIGN / SOLID+GROUND) 
+* MISSING (WOOD_DOOR / SOLID+GROUND) 
+* MISSING (IRON_DOOR / SOLID+GROUND) 
+* MISSING (SUGAR_CANE) 
+* MISSING (CAKE / SOLID+GROUND) 
+* MISSING (BED / SOLID+GROUND) 
+* MISSING (DIODE) 
+* MISSING (NETHER_STALK) 
+* MISSING (BREWING_STAND_ITEM / SOLID+GROUND) 
+* MISSING (CAULDRON_ITEM / SOLID+GROUND) 
+* MISSING (FLOWER_POT_ITEM) 
+* MISSING (SKULL_ITEM) 
+* MISSING (REDSTONE_COMPARATOR) 
+* MISSING (BANNER / SOLID+GROUND) 
+* MISSING (SPRUCE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (BIRCH_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (JUNGLE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (ACACIA_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (DARK_OAK_DOOR_ITEM / SOLID+GROUND) 
+25-05-11 16:35:52 [INFO] Post-enable running...
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkit
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkit
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+25-05-11 16:35:52 [INFO] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-11 16:35:52 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-11 16:35:52 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-11 16:35:52 [INFO] Post-enable finished.
+25-05-11 16:35:52 [INFO] ---- Version information ----
+#### Server ####
+1.21.4-229-e2ca477 ~MC: 1.21.4~
+  detected: 1.21.4
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.4.6-1.11.2|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ViaVersion v5.3.2
+25-05-11 19:47:46 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-11 19:47:46 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 48 (48/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 1815 (1815/0) |
+25-05-11 19:47:46 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-12 08:50:06 [INFO] Logger started.
+25-05-12 08:50:06 [INFO] Logging system initialized.
+25-05-12 08:50:06 [INFO] Detected Minecraft version: 1.21.4
+25-05-12 08:50:13 [WARNING] Running in Bukkit-API-only mode (1.21.4-229-e2ca477 (MC: 1.21.4)). If this is not intended, please check for updates and consider to request support.
+25-05-12 08:50:13 [WARNING]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+25-05-12 08:50:13 [WARNING]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+25-05-12 08:50:13 [WARNING] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+25-05-12 08:50:13 [INFO] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+25-05-12 08:50:13 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-12 08:50:13 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-12 08:50:13 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-12 08:50:13 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-12 08:50:13 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-12 08:50:13 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-12 08:50:13 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-12 08:50:13 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-12 08:50:14 [INFO] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+25-05-12 08:50:14 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-12 08:50:14 [INFO] Packet level access: ProtocolLib is not available.
+25-05-12 08:50:14 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-12 08:50:14 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkit
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkit
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+25-05-12 08:50:18 [INFO] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-12 08:50:18 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-12 08:50:18 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-12 08:50:18 [WARNING] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING (WHEAT) 
+* MISSING (SIGN / SOLID+GROUND) 
+* MISSING (WOOD_DOOR / SOLID+GROUND) 
+* MISSING (IRON_DOOR / SOLID+GROUND) 
+* MISSING (SUGAR_CANE) 
+* MISSING (CAKE / SOLID+GROUND) 
+* MISSING (BED / SOLID+GROUND) 
+* MISSING (DIODE) 
+* MISSING (NETHER_STALK) 
+* MISSING (BREWING_STAND_ITEM / SOLID+GROUND) 
+* MISSING (CAULDRON_ITEM / SOLID+GROUND) 
+* MISSING (FLOWER_POT_ITEM) 
+* MISSING (SKULL_ITEM) 
+* MISSING (REDSTONE_COMPARATOR) 
+* MISSING (BANNER / SOLID+GROUND) 
+* MISSING (SPRUCE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (BIRCH_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (JUNGLE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (ACACIA_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (DARK_OAK_DOOR_ITEM / SOLID+GROUND) 
+25-05-12 08:50:18 [INFO] Post-enable running...
+25-05-12 08:50:18 [INFO] Post-enable finished.
+25-05-12 08:50:18 [INFO] ---- Version information ----
+#### Server ####
+1.21.4-229-e2ca477 ~MC: 1.21.4~
+  detected: 1.21.4
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.4.6-1.11.2|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ViaVersion v5.3.2
+25-05-12 08:59:33 [INFO] D3iago failed Passable: moved into a block ([blocktype]) from 631.14, 64.00, -456.58 to 631.21, 63.94, -456.62 distance 0.10 . VL 10.
+25-05-12 08:59:38 [INFO] D3iago failed Passable: moved into a block ([blocktype]) from 632.22, 64.00, -457.26 to 632.29, 63.94, -457.30 distance 0.10 . VL 21.
+25-05-12 08:59:48 [INFO] D3iago failed SurvivalFly: tried to move: 645.81, 62.45, -465.75 -> 645.86, 62.60, -465.81, d=0.17 (swimup). VL 3.
+25-05-12 09:06:13 [INFO] 8vl_msmc_4g2 failed Passable: moved into a block ([blocktype]) from 630.66, 63.00, -450.00 to 630.66, 62.94, -450.00 distance 0.06 . VL 11.
+25-05-12 09:06:18 [INFO] 8vl_msmc_4g2 failed Passable: moved into a block ([blocktype]) from 630.43, 63.00, -449.67 to 630.36, 62.94, -449.70 distance 0.10 . VL 23.
+25-05-12 09:10:27 [INFO] LAZZYACTOR failed Passable: moved into a block ([blocktype]) from 627.85, 64.00, -472.04 to 627.86, 63.94, -472.11 distance 0.09 . VL 11.
+25-05-12 09:10:32 [INFO] LAZZYACTOR failed Passable: moved into a block ([blocktype]) from 627.85, 64.00, -472.04 to 627.85, 63.94, -472.04 distance 0.06 . VL 45.
+25-05-12 09:10:32 [INFO] LAZZYACTOR failed Passable: moved into a block ([blocktype]) from 627.85, 64.00, -472.04 to 627.85, 63.94, -472.04 distance 0.06 . VL 50.
+25-05-12 09:10:37 [INFO] LAZZYACTOR failed Passable: moved into a block ([blocktype]) from 627.85, 64.00, -472.04 to 627.85, 63.94, -472.04 distance 0.06 . VL 89.
+25-05-12 09:10:42 [INFO] LAZZYACTOR failed Passable: moved into a block ([blocktype]) from 627.85, 64.00, -472.04 to 627.85, 63.94, -472.04 distance 0.06 . VL 135.
+25-05-12 10:04:41 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 630.37, 64.00, -461.89 to 630.37, 63.94, -461.89 distance 0.06 . VL 11.
+25-05-12 10:04:46 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 630.37, 64.00, -461.89 to 630.37, 63.94, -461.89 distance 0.06 . VL 46.
+25-05-12 10:04:56 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 630.21, 64.00, -463.47 to 630.21, 63.94, -463.47 distance 0.06 . VL 50.
+25-05-12 10:04:58 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 630.21, 64.00, -463.47 to 630.21, 63.94, -463.47 distance 0.06 . VL 51.
+25-05-12 10:05:03 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 630.21, 64.00, -463.47 to 630.21, 63.94, -463.47 distance 0.06 . VL 51.
+25-05-12 10:05:05 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 630.91, 64.00, -459.68 to 630.96, 63.94, -459.49 distance 0.21 . VL 42.
+25-05-12 10:05:08 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 630.98, 64.00, -459.44 to 630.98, 63.94, -459.44 distance 0.06 . VL 53.
+25-05-12 10:05:13 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 630.98, 64.00, -459.44 to 630.98, 63.94, -459.44 distance 0.06 . VL 70.
+25-05-12 10:05:18 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 631.21, 64.12, -456.22 to 631.22, 63.94, -455.97 distance 0.31 . VL 71.
+25-05-12 10:05:26 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 631.33, 64.00, -457.53 to 631.36, 63.94, -457.25 distance 0.29 . VL 50.
+25-05-12 10:05:27 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 631.34, 64.00, -457.40 to 631.34, 63.94, -457.31 distance 0.11 . VL 50.
+25-05-12 10:05:34 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 631.35, 64.00, -456.99 to 631.35, 63.94, -456.99 distance 0.06 . VL 62.
+25-05-12 10:05:42 [INFO] sandhaya failed Passable: moved into a block ([blocktype]) from 631.35, 64.00, -456.99 to 631.35, 63.94, -456.99 distance 0.06 . VL 63.
+25-05-12 10:05:43 [WARNING] Potential exploit: Player sandhaya leaves, having moved into a block (not tracked by moving checks): world / From: x=631.347590589791,y=64.0,z=-456.9922348922139,pitch=0.0,yaw=0.0
+To: x=631.347590589791,y=63.9375,z=-456.9922348922139,pitch=59.37274,yaw=-7.555237
+25-05-12 10:05:43 [INFO] Set back player sandhaya: x=631.347590589791,y=64.0,z=-456.9922348922139,pitch=0.0,yaw=0.0
+25-05-12 10:12:55 [INFO] ITS_GG failed SurvivalFly: tried to move: 622.48, 66.84, -413.99 -> 621.86, 66.00, -416.13, d=2.38 (dirty+permchecks+hvel+hspeed+data_reset+vdistrel). VL 188.
+25-05-12 10:13:23 [INFO] ITS_GG failed Passable: moved into a block ([blocktype]) from 623.69, 66.00, -415.57 to 623.77, 66.00, -415.64 distance 0.10 . VL 10.
+25-05-12 10:13:23 [INFO] ITS_GG failed Direction: tried to interact with a block out of their line of sight. VL 11.
+25-05-12 10:13:31 [INFO] ITS_GG failed Passable: moved into a block ([blocktype]) from 623.71, 66.00, -415.56 to 623.75, 66.00, -415.64 distance 0.10 . VL 15.
+25-05-12 10:13:32 [INFO] ITS_GG failed Direction: tried to interact with a block out of their line of sight. VL 12.
+25-05-12 10:13:39 [INFO] ITS_GG failed Passable: moved into a block ([blocktype]) from 622.68, 66.00, -415.34 to 622.56, 66.00, -415.25 distance 0.15 . VL 14.
+25-05-12 10:13:44 [INFO] ITS_GG failed Passable: moved into a block ([blocktype]) from 623.70, 66.00, -415.39 to 623.80, 66.00, -415.40 distance 0.10 . VL 16.
+25-05-12 10:13:49 [INFO] ITS_GG failed Passable: moved into a block ([blocktype]) from 623.70, 66.00, -415.39 to 623.79, 66.00, -415.43 distance 0.10 . VL 37.
+25-05-12 13:26:45 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-12 13:26:45 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 929 (929/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 35131 (35131/0) |
+25-05-12 13:26:45 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-12 13:27:40 [INFO] Logger started.
+25-05-12 13:27:40 [INFO] Logging system initialized.
+25-05-12 13:27:40 [INFO] Detected Minecraft version: 1.21.4
+25-05-12 13:27:49 [WARNING] Running in Bukkit-API-only mode (1.21.4-229-e2ca477 (MC: 1.21.4)). If this is not intended, please check for updates and consider to request support.
+25-05-12 13:27:49 [WARNING]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+25-05-12 13:27:49 [WARNING]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+25-05-12 13:27:49 [WARNING] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+25-05-12 13:27:49 [INFO] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+25-05-12 13:27:49 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-12 13:27:49 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-12 13:27:49 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-12 13:27:49 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-12 13:27:49 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-12 13:27:49 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-12 13:27:49 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-12 13:27:49 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-12 13:27:49 [INFO] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+25-05-12 13:27:49 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-12 13:27:49 [INFO] Packet level access: ProtocolLib is not available.
+25-05-12 13:27:49 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-12 13:27:49 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-12 13:27:53 [WARNING] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING (WHEAT) 
+* MISSING (SIGN / SOLID+GROUND) 
+* MISSING (WOOD_DOOR / SOLID+GROUND) 
+* MISSING (IRON_DOOR / SOLID+GROUND) 
+* MISSING (SUGAR_CANE) 
+* MISSING (CAKE / SOLID+GROUND) 
+* MISSING (BED / SOLID+GROUND) 
+* MISSING (DIODE) 
+* MISSING (NETHER_STALK) 
+* MISSING (BREWING_STAND_ITEM / SOLID+GROUND) 
+* MISSING (CAULDRON_ITEM / SOLID+GROUND) 
+* MISSING (FLOWER_POT_ITEM) 
+* MISSING (SKULL_ITEM) 
+* MISSING (REDSTONE_COMPARATOR) 
+* MISSING (BANNER / SOLID+GROUND) 
+* MISSING (SPRUCE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (BIRCH_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (JUNGLE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (ACACIA_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (DARK_OAK_DOOR_ITEM / SOLID+GROUND) 
+25-05-12 13:27:53 [INFO] Post-enable running...
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkit
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkit
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+25-05-12 13:27:53 [INFO] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-12 13:27:53 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-12 13:27:53 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-12 13:27:53 [INFO] Post-enable finished.
+25-05-12 13:27:53 [INFO] ---- Version information ----
+#### Server ####
+1.21.4-229-e2ca477 ~MC: 1.21.4~
+  detected: 1.21.4
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.4.6-1.11.2|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ViaVersion v5.3.2
+25-05-12 13:47:19 [INFO] Samar225 failed Passable: moved into a block ([blocktype]) from 630.99, 63.00, -450.45 to 631.04, 62.94, -450.53 distance 0.11 . VL 11.
+25-05-12 13:59:40 [INFO] TechNoorzz failed Passable: moved into a block ([blocktype]) from 630.89, 64.00, -455.29 to 630.98, 63.94, -455.34 distance 0.11 . VL 10.
+25-05-12 13:59:45 [INFO] TechNoorzz failed Passable: moved into a block ([blocktype]) from 630.95, 64.00, -455.00 to 630.95, 63.94, -455.00 distance 0.06 . VL 32.
+25-05-12 13:59:52 [INFO] TechNoorzz failed SurvivalFly: tried to move: 630.95, 63.94, -455.00 -> 630.95, 63.94, -455.00, d=0.00 (maxphase). VL 60.
+25-05-12 13:59:53 [INFO] TechNoorzz failed SurvivalFly: tried to move: 631.08, 63.94, -454.99 -> 631.18, 63.94, -454.99, d=0.09 (maxphase). VL 105.
+25-05-12 13:59:57 [INFO] TechNoorzz failed Passable: moved into a block ([blocktype]) from 631.13, 64.16, -455.77 to 631.15, 63.94, -455.83 distance 0.23 . VL 25.
+25-05-12 14:00:02 [INFO] TechNoorzz failed Passable: moved into a block ([blocktype]) from 630.93, 63.00, -452.93 to 630.93, 62.94, -452.93 distance 0.06 . VL 25.
+25-05-12 14:00:07 [INFO] TechNoorzz failed Passable: moved into a block ([blocktype]) from 630.93, 63.00, -452.93 to 630.93, 62.94, -452.93 distance 0.06 . VL 46.
+25-05-12 14:00:13 [INFO] TechNoorzz failed Passable: moved into a block ([blocktype]) from 642.31, 63.00, -467.17 to 642.55, 62.94, -467.20 distance 0.25 . VL 27.
+25-05-12 14:00:18 [INFO] TechNoorzz failed Passable: moved into a block ([blocktype]) from 647.61, 63.00, -468.13 to 647.66, 62.94, -468.17 distance 0.09 . VL 23.
+25-05-12 14:00:23 [INFO] TechNoorzz failed Passable: moved into a block ([blocktype]) from 647.55, 63.12, -468.25 to 647.54, 62.94, -468.37 distance 0.22 . VL 12.
+25-05-12 14:01:33 [INFO] TechNoorzz failed Passable: moved into a block ([blocktype]) from 693.04, 68.00, -453.10 to 693.11, 67.94, -453.04 distance 0.11 . VL 10.
+25-05-12 15:30:55 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-12 15:30:55 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 924 (924/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 29619 (29619/0) |
+25-05-12 15:30:55 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-12 16:14:24 [INFO] Logger started.
+25-05-12 16:14:24 [INFO] Logging system initialized.
+25-05-12 16:14:24 [INFO] Detected Minecraft version: 1.21.4
+25-05-12 16:14:33 [WARNING] Running in Bukkit-API-only mode (1.21.4-229-e2ca477 (MC: 1.21.4)). If this is not intended, please check for updates and consider to request support.
+25-05-12 16:14:33 [WARNING]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+25-05-12 16:14:33 [WARNING]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+25-05-12 16:14:33 [WARNING] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+25-05-12 16:14:33 [INFO] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+25-05-12 16:14:33 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-12 16:14:33 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-12 16:14:33 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-12 16:14:33 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-12 16:14:33 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-12 16:14:33 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-12 16:14:33 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-12 16:14:33 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-12 16:14:33 [INFO] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+25-05-12 16:14:33 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-12 16:14:33 [INFO] Packet level access: ProtocolLib is not available.
+25-05-12 16:14:33 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-12 16:14:33 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-12 16:14:37 [WARNING] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING (WHEAT) 
+* MISSING (SIGN / SOLID+GROUND) 
+* MISSING (WOOD_DOOR / SOLID+GROUND) 
+* MISSING (IRON_DOOR / SOLID+GROUND) 
+* MISSING (SUGAR_CANE) 
+* MISSING (CAKE / SOLID+GROUND) 
+* MISSING (BED / SOLID+GROUND) 
+* MISSING (DIODE) 
+* MISSING (NETHER_STALK) 
+* MISSING (BREWING_STAND_ITEM / SOLID+GROUND) 
+* MISSING (CAULDRON_ITEM / SOLID+GROUND) 
+* MISSING (FLOWER_POT_ITEM) 
+* MISSING (SKULL_ITEM) 
+* MISSING (REDSTONE_COMPARATOR) 
+* MISSING (BANNER / SOLID+GROUND) 
+* MISSING (SPRUCE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (BIRCH_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (JUNGLE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (ACACIA_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (DARK_OAK_DOOR_ITEM / SOLID+GROUND) 
+25-05-12 16:14:37 [INFO] Post-enable running...
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkit
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkit
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+25-05-12 16:14:37 [INFO] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-12 16:14:37 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-12 16:14:37 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-12 16:14:37 [INFO] Post-enable finished.
+25-05-12 16:14:37 [INFO] ---- Version information ----
+#### Server ####
+1.21.4-229-e2ca477 ~MC: 1.21.4~
+  detected: 1.21.4
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.4.6-1.11.2|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ViaVersion v5.3.2
+25-05-12 16:25:43 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-12 16:25:43 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 0 |
+25-05-12 16:25:43 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-12 16:26:37 [INFO] Logger started.
+25-05-12 16:26:37 [INFO] Logging system initialized.
+25-05-12 16:26:37 [INFO] Detected Minecraft version: 1.21.4
+25-05-12 16:26:44 [WARNING] Running in Bukkit-API-only mode (1.21.4-229-e2ca477 (MC: 1.21.4)). If this is not intended, please check for updates and consider to request support.
+25-05-12 16:26:44 [WARNING]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+25-05-12 16:26:44 [WARNING]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+25-05-12 16:26:44 [WARNING] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+25-05-12 16:26:44 [INFO] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+25-05-12 16:26:44 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-12 16:26:44 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-12 16:26:44 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-12 16:26:44 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-12 16:26:44 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-12 16:26:44 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-12 16:26:44 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-12 16:26:44 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-12 16:26:44 [INFO] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+25-05-12 16:26:44 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-12 16:26:44 [INFO] Packet level access: ProtocolLib is not available.
+25-05-12 16:26:45 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-12 16:26:45 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-12 16:26:49 [WARNING] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING (WHEAT) 
+* MISSING (SIGN / SOLID+GROUND) 
+* MISSING (WOOD_DOOR / SOLID+GROUND) 
+* MISSING (IRON_DOOR / SOLID+GROUND) 
+* MISSING (SUGAR_CANE) 
+* MISSING (CAKE / SOLID+GROUND) 
+* MISSING (BED / SOLID+GROUND) 
+* MISSING (DIODE) 
+* MISSING (NETHER_STALK) 
+* MISSING (BREWING_STAND_ITEM / SOLID+GROUND) 
+* MISSING (CAULDRON_ITEM / SOLID+GROUND) 
+* MISSING (FLOWER_POT_ITEM) 
+* MISSING (SKULL_ITEM) 
+* MISSING (REDSTONE_COMPARATOR) 
+* MISSING (BANNER / SOLID+GROUND) 
+* MISSING (SPRUCE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (BIRCH_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (JUNGLE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (ACACIA_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (DARK_OAK_DOOR_ITEM / SOLID+GROUND) 
+25-05-12 16:26:49 [INFO] Post-enable running...
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkit
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkit
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+25-05-12 16:26:49 [INFO] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-12 16:26:49 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-12 16:26:49 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-12 16:26:49 [INFO] Post-enable finished.
+25-05-12 16:26:49 [INFO] ---- Version information ----
+#### Server ####
+1.21.4-229-e2ca477 ~MC: 1.21.4~
+  detected: 1.21.4
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.4.6-1.11.2|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ViaVersion v5.3.2
+25-05-12 16:31:10 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-12 16:31:10 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 0 |
+25-05-12 16:31:10 [INFO] [GenericInstanceRegistry] Registry cleared.
+25-05-12 16:33:37 [INFO] Logger started.
+25-05-12 16:33:37 [INFO] Logging system initialized.
+25-05-12 16:33:37 [INFO] Detected Minecraft version: 1.21.4
+25-05-12 16:33:45 [WARNING] Running in Bukkit-API-only mode (1.21.4-229-e2ca477 (MC: 1.21.4)). If this is not intended, please check for updates and consider to request support.
+25-05-12 16:33:45 [WARNING]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+25-05-12 16:33:45 [WARNING]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+25-05-12 16:33:45 [WARNING] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+25-05-12 16:33:45 [INFO] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+25-05-12 16:33:45 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-12 16:33:45 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-12 16:33:45 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-12 16:33:45 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-12 16:33:45 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-12 16:33:45 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-12 16:33:45 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-12 16:33:45 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-12 16:33:45 [INFO] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+25-05-12 16:33:45 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-12 16:33:45 [INFO] Packet level access: ProtocolLib is not available.
+25-05-12 16:33:45 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-12 16:33:45 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-12 16:33:49 [WARNING] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING (WHEAT) 
+* MISSING (SIGN / SOLID+GROUND) 
+* MISSING (WOOD_DOOR / SOLID+GROUND) 
+* MISSING (IRON_DOOR / SOLID+GROUND) 
+* MISSING (SUGAR_CANE) 
+* MISSING (CAKE / SOLID+GROUND) 
+* MISSING (BED / SOLID+GROUND) 
+* MISSING (DIODE) 
+* MISSING (NETHER_STALK) 
+* MISSING (BREWING_STAND_ITEM / SOLID+GROUND) 
+* MISSING (CAULDRON_ITEM / SOLID+GROUND) 
+* MISSING (FLOWER_POT_ITEM) 
+* MISSING (SKULL_ITEM) 
+* MISSING (REDSTONE_COMPARATOR) 
+* MISSING (BANNER / SOLID+GROUND) 
+* MISSING (SPRUCE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (BIRCH_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (JUNGLE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (ACACIA_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (DARK_OAK_DOOR_ITEM / SOLID+GROUND) 
+25-05-12 16:33:49 [INFO] Post-enable running...
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkit
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkit
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+25-05-12 16:33:49 [INFO] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-12 16:33:49 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-12 16:33:49 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-12 16:33:49 [INFO] Post-enable finished.
+25-05-12 16:33:49 [INFO] ---- Version information ----
+#### Server ####
+1.21.4-229-e2ca477 ~MC: 1.21.4~
+  detected: 1.21.4
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.4.6-1.11.2|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ViaVersion v5.3.2
+25-05-12 16:57:55 [INFO] ITS_GG failed Passable: moved into a block ([blocktype]) from 622.92, 66.00, -415.13 to 622.89, 66.00, -415.03 distance 0.10 . VL 10.
+25-05-12 16:58:03 [INFO] ITS_GG failed Passable: moved into a block ([blocktype]) from 632.66, 64.00, -463.18 to 632.44, 63.94, -463.34 distance 0.28 . VL 15.
+25-05-13 09:17:16 [INFO] Logger started.
+25-05-13 09:17:16 [INFO] Logging system initialized.
+25-05-13 09:17:16 [INFO] Detected Minecraft version: 1.21.4
+25-05-13 09:17:26 [WARNING] Running in Bukkit-API-only mode (1.21.4-229-e2ca477 (MC: 1.21.4)). If this is not intended, please check for updates and consider to request support.
+25-05-13 09:17:26 [WARNING]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+25-05-13 09:17:26 [WARNING]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+25-05-13 09:17:26 [WARNING] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+25-05-13 09:17:26 [INFO] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+25-05-13 09:17:27 [INFO] Added block-info for Minecraft 1.5 blocks.
+25-05-13 09:17:27 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+25-05-13 09:17:27 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+25-05-13 09:17:27 [INFO] Added block-info for Minecraft 1.8 blocks.
+25-05-13 09:17:27 [INFO] Added block-info for Minecraft 1.9 blocks.
+25-05-13 09:17:27 [INFO] Added block-info for Minecraft 1.10 blocks.
+25-05-13 09:17:27 [INFO] Added block-info for Minecraft 1.11 blocks.
+25-05-13 09:17:27 [INFO] Added block-info for Minecraft 1.12 blocks.
+25-05-13 09:17:27 [INFO] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+25-05-13 09:17:27 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+25-05-13 09:17:27 [INFO] Packet level access: ProtocolLib is not available.
+25-05-13 09:17:27 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+25-05-13 09:17:27 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+25-05-13 09:17:32 [WARNING] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING (WHEAT) 
+* MISSING (SIGN / SOLID+GROUND) 
+* MISSING (WOOD_DOOR / SOLID+GROUND) 
+* MISSING (IRON_DOOR / SOLID+GROUND) 
+* MISSING (SUGAR_CANE) 
+* MISSING (CAKE / SOLID+GROUND) 
+* MISSING (BED / SOLID+GROUND) 
+* MISSING (DIODE) 
+* MISSING (NETHER_STALK) 
+* MISSING (BREWING_STAND_ITEM / SOLID+GROUND) 
+* MISSING (CAULDRON_ITEM / SOLID+GROUND) 
+* MISSING (FLOWER_POT_ITEM) 
+* MISSING (SKULL_ITEM) 
+* MISSING (REDSTONE_COMPARATOR) 
+* MISSING (BANNER / SOLID+GROUND) 
+* MISSING (SPRUCE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (BIRCH_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (JUNGLE_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (ACACIA_DOOR_ITEM / SOLID+GROUND) 
+* MISSING (DARK_OAK_DOOR_ITEM / SOLID+GROUND) 
+25-05-13 09:17:32 [INFO] Post-enable running...
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkit
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkit
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+25-05-13 09:17:32 [INFO] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+25-05-13 09:17:32 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+25-05-13 09:17:32 [INFO] Added hook: AllViolations(NCP) [1.0].
+25-05-13 09:17:32 [INFO] Post-enable finished.
+25-05-13 09:17:32 [INFO] ---- Version information ----
+#### Server ####
+1.21.4-229-e2ca477 ~MC: 1.21.4~
+  detected: 1.21.4
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.4.6-1.11.2|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ViaVersion v5.3.2
+25-05-13 09:57:24 [INFO] ITS_GG failed SurvivalFly: tried to move: 632.56, 63.94, -463.53 -> 632.56, 63.94, -463.53, d=0.00 (maxphase). VL 60.
+25-05-13 09:57:35 [INFO] ITS_GG failed SurvivalFly: tried to move: 632.56, 63.94, -463.53 -> 632.56, 64.36, -463.53, d=0.42 (vdistrel+vdistsb+ychincfly+maxphase). VL 134.
+25-05-13 09:57:42 [INFO] ITS_GG failed SurvivalFly: tried to move: 632.56, 63.94, -463.53 -> (HOVER), d=0.0(HOVER) (hover). VL 709.
+25-05-13 09:57:49 [INFO] ITS_GG failed SurvivalFly: tried to move: 632.56, 63.94, -463.53 -> (HOVER), d=0.0(HOVER) (hover). VL 1203.
+25-05-13 09:57:55 [INFO] ITS_GG failed SurvivalFly: tried to move: 632.56, 63.94, -463.53 -> 632.56, 64.36, -463.53, d=0.42 (data_reset+vdistrel+vdistsb). VL 1275.
+25-05-13 09:58:03 [INFO] ITS_GG failed SurvivalFly: tried to move: 632.56, 63.94, -463.53 -> (HOVER), d=0.0(HOVER) (hover). VL 1835.
+25-05-13 09:58:03 [INFO] (CONSOLE) Kicked ITS_GG : Kicked for flying (or related)
+25-05-13 09:58:11 [INFO] ITS_GG failed SurvivalFly: tried to move: 632.56, 63.94, -463.53 -> 632.56, 63.94, -463.53, d=0.00 (ychdec+maxphase). VL 1758.
+25-05-13 09:58:11 [INFO] (CONSOLE) Kicked ITS_GG : Kicked for flying (or related)
+25-05-13 09:58:16 [INFO] ITS_GG failed SurvivalFly: tried to move: 632.44, 63.94, -463.57 -> 632.35, 63.94, -463.61, d=0.10 (maxphase). VL 1523.
+25-05-13 09:58:16 [INFO] (CONSOLE) Kicked ITS_GG : Kicked for flying (or related)
+25-05-13 09:58:52 [INFO] ITS_GG failed SurvivalFly: tried to move: 632.56, 63.94, -463.53 -> 632.33, 64.36, -463.77, d=0.53 (data_reset+vdistrel+vdistsb). VL 1282.
+25-05-13 10:08:48 [INFO] notflux101 failed Passable: moved into a block ([blocktype]) from 637.73, 63.00, -496.56 to 637.73, 62.94, -496.56 distance 0.06 . VL 11.
+25-05-13 10:08:53 [INFO] notflux101 failed Passable: moved into a block ([blocktype]) from 630.25, 63.00, -491.24 to 630.25, 62.94, -491.24 distance 0.06 . VL 14.
+25-05-13 10:08:58 [INFO] notflux101 failed Passable: moved into a block ([blocktype]) from 627.28, 63.00, -489.77 to 627.31, 62.94, -489.84 distance 0.10 . VL 42.
+25-05-13 10:08:59 [INFO] notflux101 failed Passable: moved into a block ([blocktype]) from 627.34, 63.00, -489.88 to 627.34, 62.94, -489.88 distance 0.06 . VL 50.
+25-05-13 10:09:04 [INFO] notflux101 failed Passable: moved into a block ([blocktype]) from 627.07, 63.00, -490.00 to 627.07, 62.94, -490.00 distance 0.06 . VL 68.
+25-05-13 10:09:09 [INFO] notflux101 failed Passable: moved into a block ([blocktype]) from 627.07, 63.00, -490.00 to 627.07, 62.94, -490.00 distance 0.06 . VL 80.
+25-05-13 10:09:14 [INFO] notflux101 failed Passable: moved into a block ([blocktype]) from 626.69, 63.00, -489.88 to 626.64, 62.94, -489.87 distance 0.08 . VL 88.
+25-05-13 13:28:38 [INFO] Removed hook: AllViolations(NCP) [1.0].
+25-05-13 13:28:38 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 1537 (1537/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 40406 (40406/0) |
+25-05-13 13:28:38 [INFO] [GenericInstanceRegistry] Registry cleared.
