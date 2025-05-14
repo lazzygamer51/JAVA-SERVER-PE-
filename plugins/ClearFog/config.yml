@@ -1,0 +1,11 @@
+check-for-updates: true
+direct-view-distance-updates: false
+default:
+  enabled: true
+  view-distance: 32
+world:
+  enabled: false
+  worlds: {}
+individual:
+  enabled: false
+  players: {}

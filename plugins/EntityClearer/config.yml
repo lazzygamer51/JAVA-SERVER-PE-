@@ -1,0 +1,298 @@
+# This config was generated for version 3.8.1
+# Find the latest config at https://github.com/SilverstoneMC/EntityClearer/blob/main/src/main/resources/config.yml
+
+# FAQs can be found at https://github.com/SilverstoneMC/EntityClearer/wiki/FAQs
+
+
+
+###############################################
+#              COUNTDOWN SETTINGS             #
+###############################################
+
+# Interval in minutes the clear task should run
+# To disable the timer, set the interval to 0 (useful if only using TPS monitoring)
+# Applies to all worlds where their own interval is set to -1
+global-interval: 0
+
+# The sound to play when showing the warnings
+# See https://minecraft.wiki/w/Sounds.json#Java_Edition_values:~:text=Java%20Edition%20values-,%5Bshow%5D,-%5Bedit%5D for all sounds
+# Set to '' for no sound
+sound: 'ui.button.click'
+
+# The sound's pitch played when the timer is counting down
+# Valid values are between 0.0-2.0
+countdown-pitch: 0.9
+
+# The sound's pitch played when the entites are cleared
+# Valid values are between 0.0-2.0
+cleared-pitch: 1.0
+
+# When should the warning messages send?
+# Time is in seconds remaining before the clear task
+warning-messages:
+  - 30
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+
+
+
+###############################################
+#            WORLDS / ENTITY TYPES            #
+###############################################
+
+# The world(s) to check and remove entities from
+# You may add as many worlds to this list as you like
+worlds:
+
+  # Example 1
+  replace_me_with_world: # <- Replace replace_me_with_world with the desired world name or set it to ALL to apply to all worlds (ALL overrides any other worlds below)
+
+    # Interval in minutes the clear task should run
+    # To use the global value above, set the interval to -1
+    # To disable the timer, set the interval to 0 (useful if only using TPS monitoring)
+    interval: -1
+    
+    # The amount of players required to be in the WORLD for the clear task to run in said world
+    # Set to 0 to run regardless of any players online
+    # To use the global-min-players value below and ignore per-world player counts, set the value to -1
+    min-players: -1
+
+    # The entities to be removed from the world
+    # See https://jd.papermc.io/paper/1.21.4/org/bukkit/entity/EntityType.html for all entity types
+    #
+    # By default, named entities will not be removed
+    # Add "-NAMED" to the end of the entity type to also remove named ones
+    #
+    # By default, occupied vehicles will not be removed
+    # Add "-OCCUPIED" to the end of the entity type to also remove occupied ones
+    #
+    # The above tags can be used together in any order
+    #
+    # If using the MythicMobs plugin, you may add the mob type prefixed by "MythicMob:" and surrounded in quotation marks
+    #
+    # Note: You should not be using DROPPED_ITEM in your list as you should use Paper's alternate item despawn rates instead!
+    entities:
+      - BEE
+      - CAVE_SPIDER
+      - CHICKEN
+      - CREEPER
+      - SHEEP
+      - SKELETON
+      - SLIME
+      - SPIDER
+      - SQUID-NAMED
+      - WOLF
+      - ZOMBIE
+      #- HORSE-NAMED-OCCUPIED
+      #- "MythicMob:SkeletalKnight-NAMED"
+
+    # Should only entities with a specific spawn reason be removed?
+    # Setting this to false will check for any spawn reason
+    # Note: This only works on Paper and its forks!
+    spawn-reason:
+      enabled: false
+      # See https://jd.papermc.io/paper/1.21.4/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html for all spawn reasons
+      reasons:
+        - SPAWNER
+        - SPAWNER_EGG
+
+
+  # Example 2
+  replace_me_with_world_nether: # <- Replace replace_me_with_world with the desired world name or remove this section entirely if not needed
+    interval: -1
+    min-players: 1
+    entities:
+      - BLAZE
+      - ZOMBIFIED_PIGLIN
+    spawn-reason:
+      enabled: false
+      reasons:
+        - SPAWNER
+        - SPAWNER_EGG
+
+
+  # Example 3
+  #creative:
+  #  interval: -1
+  #  min-players: -1
+  #  entities:
+  #    - ARMOR_STAND
+  #    - ARROW
+  #    - BOAT
+  #    - CHEST_MINECART
+  #    - DROPPED_ITEM
+  #    - FURNACE_MINECART
+  #    - HOPPER_MINECART
+  #    - MINECART
+  #    - TNT_MINECART
+  #  spawn-reason:
+  #    enabled: false
+  #    reasons:
+  #      - SPAWNER
+  #      - SPAWNER_EGG
+
+
+
+###############################################
+#               REMOVAL SETTINGS              #
+###############################################
+
+# The minimum amount of players required to be on the SERVER for the clear task to run
+# Set to 0 to run regardless of any players online
+# Applies to all worlds where their own value is set to -1
+global-min-players: 1
+
+nearby-entities:
+  # Should the plugin only remove entities that have multiple entities nearby?
+  # This is useful to only remove large groups of entities while leaving smaller entity groups alone
+  # Using this would prevent every entity from being removed then just respawning again naturally
+  # It is recommended to leave this feature enabled
+  enabled: true
+
+  # Should the plugin only count nearby entities that are also on the remove list?
+  # Setting this to false will count ANY nearby entity, including players, XP Orbs, Item Frames, etc
+  only-count-from-list: true
+
+  # The distance in blocks that the plugin should check for extra entities
+  x: 3
+  y: 3
+  z: 3
+  # How many additional entities must be around the first entity to be removed?
+  count: 14
+
+# The command(s) to run after the entity clearing task completes (if successful)
+commands:
+#  - 'minecraft:execute in minecraft:overworld run summon minecraft:lightning_bolt 0 64 0'
+
+
+
+###############################################
+#                   MESSAGES                  #
+###############################################
+
+messages:
+  # Any message can be set to "" to disable it
+  # This plugin uses MiniMessage markdown and formatting - see https://docs.advntr.dev/minimessage/format.html
+
+  # TIME placeholder translations
+  timeleft-minute: "minute"
+  timeleft-second: "second"
+
+  # The text to append if the remaining seconds/minutes are greater than 1 - most people will not need to change this
+  append-s-text: "s"
+
+  # Placeholders:
+  # {TIMELEFT} - the time remaining before the clear task is run
+  # {TIME} - will output "minute(s)" or "second(s)" depending on the time left
+
+  actionbar-message: "<#ff9b0f><bold>Common entities will be removed in <yellow>{TIMELEFT}</yellow> {TIME}!"
+  chat-message: "<red>Common entities will be removed in <gray>{TIMELEFT}</gray> {TIME}!"
+  log-message: "<gold>Common entities will be removed in <yellow>{TIMELEFT}</yellow> {TIME}!"
+  title-message: ""
+  subtitle-message: ""
+
+  # Placeholders:
+  # {ENTITIES} - the amount of entities removed after the clear task has run
+
+  actionbar-completed-message: "<#ff9b0f><bold>Removed <yellow>{ENTITIES}</yellow> entities!"
+  actionbar-completed-low-tps-message: "<#ff9b0f><bold>Removed <yellow>{ENTITIES}</yellow> entities due to low TPS!"
+
+  chat-completed-message: "<red>Removed <gray>{ENTITIES}</gray> entities!"
+  chat-completed-low-tps-message: "<red>Removed <gray>{ENTITIES}</gray> entities due to low TPS!"
+
+  log-completed-message: "<yellow>Removed <gold>{ENTITIES}</gold> entities!"
+  log-completed-low-tps-message: "<red>Removed <gray>{ENTITIES}</gray> entities due to low TPS!"
+
+  title-completed-message: ""
+  subtitle-completed-message: ""
+  title-completed-low-tps-message: ""
+  subtitle-completed-low-tps-message: ""
+
+
+
+###############################################
+#                   LOW TPS                   #
+###############################################
+
+low-tps:
+  # Should the entity removal task be triggered when the TPS is low?
+  enabled: true
+
+  # Below what TPS should the plugin remove the entities?
+  threshold: 17
+
+  # Should there be a chat message sent to players with the `entityclearer.lowtps`
+  # permission stating that the TPS is low? This is run BEFORE the clearing task starts
+  chat: true
+
+  # Placeholders:
+  # {TPS} - the current TPS of the server
+  chat-message: "<red><bold>Warning: TPS low <dark_gray>(<gray>{TPS}</gray>)</dark_gray>! Removing entities..."
+
+  # Should the list of entities to remove be separate from the one defined above?
+  separate-entity-list: false
+
+  # This list will not be active unless the above option is true
+  worlds:
+
+    # Example 1
+    replace_me_with_world: # <- Replace replace_me_with_world with the desired world name or set it to ALL to apply to all worlds (ALL overrides any other worlds below)
+      entities:
+        - ARMOR_STAND
+        - ARROW
+        - BEE
+        - BOAT
+        - CAVE_SPIDER
+        - CHEST_MINECART
+        - CHICKEN
+        - CREEPER
+        - FALLING_BLOCK
+        - FURNACE_MINECART
+        - HOPPER_MINECART
+        - MINECART-OCCUPIED
+        - SHEEP
+        - SKELETON
+        - SLIME
+        - SPIDER
+        - SQUID-NAMED
+        - TNT_MINECART
+        - WOLF
+        - ZOMBIE
+      spawn-reason:
+        enabled: false
+        reasons:
+          - SPAWNER
+          - SPAWNER_EGG
+
+
+    # Example 2
+    replace_me_with_world_nether: # <- Replace replace_me_with_world with the desired world name or remove this section entirely if not needed
+      entities:
+        - ARMOR_STAND
+        - ARROW
+        - BLAZE
+        - BOAT
+        - CHEST_MINECART
+        - FALLING_BLOCK
+        - FURNACE_MINECART
+        - HOPPER_MINECART
+        - MINECART
+        - TNT_MINECART
+        - ZOMBIFIED_PIGLIN
+      spawn-reason:
+        enabled: false
+        reasons:
+          - SPAWNER
+          - SPAWNER_EGG
+
+
+
+# This plugin uses bStats metrics
+# https://bstats.org/plugin/bukkit/EntityClearer/10915
+# Metrics can be disabled in the bStats config.yml
+
+# Disables uploading debug dumps to the paste service. You probably don't need to change this.
+disable-paste-upload: false

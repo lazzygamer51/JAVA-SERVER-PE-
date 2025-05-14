@@ -1,0 +1,96 @@
+    #--------------#
+ #  Added more repaired bugs #
+# /lagg killmobs (Kills mobs)
+# /lagg area <radius> (Removes entities within given radius)
+ # And More! #
+     #--------------#          
+options:
+	Prefix: &6[&aClearLag&6]
+	PrefixWarning: &4[ClearLag]
+	version: 1.0
+	Author: flexgglo
+
+	#----------#
+	# Messages #
+	#----------#
+
+	Warning: &cWarning Ground items will be removed in
+
+every 5 minutes:
+	broadcast "{@PrefixWarning} {@Warning} &71 &cminute!"
+	wait 57 seconds
+	broadcast "{@PrefixWarning} {@Warning} &73 &cseconds!"
+	wait 1 seconds
+	broadcast "{@PrefixWarning} {@Warning} &72 &cseconds!"
+	wait 1 seconds
+	broadcast "{@PrefixWarning} {@Warning} &71 &cseconds!"
+	wait 1 seconds
+	make server execute command "/clear lag"
+
+command /lagg [<text>] [<integer>]:
+	trigger:
+		if arg-1 is not set:
+			message "&3-----------(&b&lYou Clearlag Commands&3)-----------"
+			message "&4- &8/&3Lagg &bclear &f- (Clears entities from your worlds)"
+			message "&4- &8/&3Lagg &barea &f- (Clears entities from your radius)"
+			message "&4- &8/&3Lagg &bkillmobs &f- (Clears mobs from your worlds)"
+			message "&3-------------------------------------------"
+
+		if player has permission "lagg.clear":
+			if arg 1 is "clear":
+				clear {_count}
+				loop all arrows:
+					clear loop-entity
+					add 1 to {_count}
+				loop entities:
+					loop-entity is a dropped item
+					clear loop-entity
+					add 1 to {_count}
+				if {_count} is not set:
+					set {_count} to 0
+				broadcast "{@Prefix} &bYou just removed &3%{_count}% &bentities!"
+
+		if player has permission "lagg.killmobs":
+			if arg 1 is "killmobs":
+				broadcast "{@Prefix} &bMobs have been removed!"
+				loop entities:
+					if loop-entity is a creature:
+						clear loop-entity
+					if loop-entity is a slime:
+						clear all slimes
+
+		if arg 1 is "area":
+			if arg 2 is not set:
+				send "&cWrong usage &8/&7Lagg <area> <radius>"
+
+		if player has permission "lagg.area":	
+			if arg 1 is "area":
+				if arg 2 is set:
+					clear {_count}
+					loop all arrows in radius arg-2 around player:
+						clear loop-entity
+						add 1 to {_count}
+					loop entities in radius arg-2 around player:
+						loop-entity is a dropped item
+						clear loop-entity
+						add 1 to {_count}
+					if {_count} is not set:
+						set {_count} to 0
+					broadcast "{@Prefix} &3%{_count}% &bEntities have been removed within a radius of &3%arg-2%!"
+command /clear [<text>]: 
+	trigger:	
+		if arg 1 is "lag":
+			clear {_count}
+			loop all arrows:
+				clear loop-entity
+				add 1 to {_count}
+			loop entities:
+				loop-entity is a dropped item
+				clear loop-entity
+				add 1 to {_count}
+			if {_count} is not set:
+				set {_count} to 0
+			broadcast "{@Prefix} &bRemoved &3%{_count}% &bEntities!"
+
+
+	
