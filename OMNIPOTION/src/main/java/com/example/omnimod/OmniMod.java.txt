@@ -1,0 +1,10 @@
+package com.example.omnimod;
+
+import net.fabricmc.api.ModInitializer;
+
+public class OmniMod implements ModInitializer {
+    @Override
+    public void onInitialize() {
+        System.out.println("✅ OmniMod loaded in Minecraft 1.21!");
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "omnimod",
+  "version": "1.0.0",
+  "name": "OmniMod",
+  "description": "Custom mod like Omniscience (Fabric 1.21)",
+  "entrypoints": {
+    "main": [
+      "com.example.omnimod.OmniMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21"
+  }
+}
